@@ -166,13 +166,14 @@ export default function GermanyStudyGuide() {
                         <p className="font-medium">Gönderim Adresi:</p>
                         <div className="bg-white rounded p-3 border border-amber-200">
                           <p className="font-mono text-xs leading-relaxed">
+                            ÜÖğrenci Seçme ve Yerleştirme Merkezi (ÖSYM)<br />
                             Üniversiteler Mahallesi<br />
                             İhsan Doğramacı Bulvarı No:4D<br />
                             06800 Bilkent Çankaya / ANKARA
                           </p>
                         </div>
                         <p className="text-xs mt-2">
-                          <strong>Not:</strong> Kamu kurumları sadece PTT tarafından gönderilen belgeleri kabul edebiliyor. İsterseniz PTT-Acil Posta Servisi ile de gönderebilirsiniz. Dilekçeniz hızlı bir şekilde ulaşır. Devlet üniversitesinde okuyorsanız üniversitenizin içerisinde bir PTT şubesi mevcut ise üniversitenizin anlaşması olabilir, mektubunuz ücret farkı olmadan APS ile gönderilebilir. Araştırın.
+                          <strong>Not:</strong> Kamu kurumları sadece PTT tarafından teslim edilen belgeleri kabul edebiliyor. İsterseniz PTT-Acil Posta Servisi ile de gönderebilirsiniz. Dilekçeniz hızlı bir şekilde ulaşır. Devlet üniversitesinde okuyorsanız ve üniversitenizin içerisinde bir PTT şubesi mevcut ise üniversitenizin anlaşması olabilir, mektubunuz ücret farkı olmadan APS ile gönderilebilir. Araştırın.
                         </p>
                       </div>
                     </div>
