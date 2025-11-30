@@ -373,7 +373,7 @@ export default function GermanyStudyGuide() {
                         <p className="font-medium">Apostil işlemi için iki seçeneğiniz var:</p>
                         
                         <div className="bg-white rounded p-3 border border-teal-200 space-y-2">
-                          <p className="font-semibold text-teal-900">Seçenek 1: Valilik (Ücretsiz)</p>
+                          <p className="font-semibold text-teal-900">Seçenek 1: Valilik veya Kaymakamlık(Ücretsiz)</p>
                           <p className="text-xs text-gray-700">
                             Size en yakın <strong>Valilik</strong> veya <strong>Kaymakamlık Yazı İşleri Bölümü</strong>'ne gidin. 
                             Apostil işlemi ücretsizdir.
