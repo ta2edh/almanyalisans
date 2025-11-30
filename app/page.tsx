@@ -71,7 +71,7 @@ export default function GermanyStudyGuide() {
                 </div>
                 <h3 className="text-xl font-semibold">Tüm İşlemler Ücretsiz</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Uni-Assist üzerinden sadece başvuru ücreti ödersin.
+                  Sadece başvuru ücreti, noter onaylı tercüme bedeli gibi ücretleri ödersin.
                 </p>
               </CardContent>
             </Card>
@@ -89,15 +89,15 @@ export default function GermanyStudyGuide() {
 
           <div className="max-w-4xl mx-auto space-y-8">
             {/* Step 1 */}
-            <div className="flex gap-6 items-start group">
-              <div className="flex-shrink-0 w-16 h-16 bg-primary text-primary-foreground rounded-2xl flex items-center justify-center font-bold text-xl">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 items-start group">
+              <div className="shrink-0 w-12 h-12 sm:w-16 sm:h-16 bg-primary text-primary-foreground rounded-2xl flex items-center justify-center font-bold text-lg sm:text-xl">
                 1
               </div>
-              <Card className="flex-1 border-2 group-hover:border-primary transition-colors">
+              <Card className="flex-1 w-full border-2 group-hover:border-primary transition-colors">
                 <CardContent className="pt-6 pb-6 space-y-4">
                   <div className="flex items-center gap-3">
-                    <FileText className="w-6 h-6" />
-                    <h3 className="text-2xl font-semibold">ÖSYM'den Belgeleri Alma</h3>
+                    <FileText className="w-6 h-6 shrink-0" />
+                    <h3 className="text-xl sm:text-2xl font-semibold">ÖSYM'den Belgeleri Alma</h3>
                   </div>
                   
                   <div className="ml-9 space-y-4">
@@ -110,7 +110,7 @@ export default function GermanyStudyGuide() {
                           rel="noopener noreferrer"
                           className="underline font-medium hover:text-blue-600"
                         >
-                          ÖSYM Dilekçe Formu
+                          ÖSYM Genel Amaçlı Dilekçe Formu
                         </a>
                         'nu indir ve yazdır.
                       </p>
@@ -126,9 +126,7 @@ export default function GermanyStudyGuide() {
                       <div className="bg-white rounded p-3 text-sm">
                         <p className="font-medium text-gray-900 mb-2">Talepler Kısmına Yazılacak Metin:</p>
                         <div className="bg-gray-50 p-3 rounded border border-gray-200 font-mono text-xs leading-relaxed">
-                          <p>Sayın Yetkili,</p>
-                          <br />
-                          <p>[SINAVA GİRDİĞİN YIL] Yükseköğretim Kurumları Sınavı (YKS) kapsamında alınan:</p>
+                          <p>[SINAVA GİRDİĞİN YIL] Yükseköğretim Kurumları Sınavı (YKS) kapsamında tarafıma düzenlenen:</p>
                           <br />
                           <p>• [SINAVA GİRDİĞİN YIL] YKS Sonuç Belgesi ([TARİH] tarihli)</p>
                           <p>• [SINAVA GİRDİĞİN YIL] YKS Yerleştirme Sonuç Belgesi ([TARİH] tarihli)</p>
@@ -172,15 +170,15 @@ export default function GermanyStudyGuide() {
             </div>
 
             {/* Step 2 */}
-            <div className="flex gap-6 items-start group">
-              <div className="flex-shrink-0 w-16 h-16 bg-primary text-primary-foreground rounded-2xl flex items-center justify-center font-bold text-xl">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 items-start group">
+              <div className="shrink-0 w-12 h-12 sm:w-16 sm:h-16 bg-primary text-primary-foreground rounded-2xl flex items-center justify-center font-bold text-lg sm:text-xl">
                 2
               </div>
-              <Card className="flex-1 border-2 group-hover:border-primary transition-colors">
+              <Card className="flex-1 w-full border-2 group-hover:border-primary transition-colors">
                 <CardContent className="pt-6 pb-6 space-y-4">
                   <div className="flex items-center gap-3">
-                    <GraduationCap className="w-6 h-6" />
-                    <h3 className="text-2xl font-semibold">Lise Diplomasını İmzalatma</h3>
+                    <GraduationCap className="w-6 h-6 shrink-0" />
+                    <h3 className="text-xl sm:text-2xl font-semibold">Lise Diplomasını İmzalatma</h3>
                   </div>
                   
                   <div className="ml-9 space-y-4">
@@ -220,7 +218,7 @@ export default function GermanyStudyGuide() {
                       <h4 className="font-semibold text-indigo-900">📋 Adım 2.3: Apostil Yaptırma (İsteğe Bağlı)</h4>
                       <div className="text-sm text-indigo-800 space-y-2">
                         <p>
-                          İsterseniz, <strong>Kaymakamlık Yazı İşleri Bölümü</strong>'nden diplomanıza apostil de yaptırabilirsiniz.
+                          Bazı ilçelerde İlçe MEM, Kaymakamlık binasında bulunuyor. Eğer öyle ise <strong>Kaymakamlık Yazı İşleri Bölümü</strong>'nden diplomanıza apostil de yaptırabilirsiniz. 5. Bölümde diplomanızıda apostil yaptırmanız gerektiğini belirttik.
                         </p>
                         <div className="bg-white rounded p-3 border border-indigo-200">
                           <p className="text-xs text-gray-700">
@@ -235,15 +233,15 @@ export default function GermanyStudyGuide() {
             </div>
 
             {/* Step 3 */}
-            <div className="flex gap-6 items-start group">
-              <div className="flex-shrink-0 w-16 h-16 bg-primary text-primary-foreground rounded-2xl flex items-center justify-center font-bold text-xl">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 items-start group">
+              <div className="shrink-0 w-12 h-12 sm:w-16 sm:h-16 bg-primary text-primary-foreground rounded-2xl flex items-center justify-center font-bold text-lg sm:text-xl">
                 3
               </div>
-              <Card className="flex-1 border-2 group-hover:border-primary transition-colors">
+              <Card className="flex-1 w-full border-2 group-hover:border-primary transition-colors">
                 <CardContent className="pt-6 pb-6 space-y-4">
                   <div className="flex items-center gap-3">
-                    <Globe className="w-6 h-6" />
-                    <h3 className="text-2xl font-semibold">Belgeleri Almanca Yeminli Tercümana Çevirtme</h3>
+                    <Globe className="w-6 h-6 shrink-0" />
+                    <h3 className="text-xl sm:text-2xl font-semibold">Belgeleri Almanca Yeminl Tercümana Çevirtme</h3>
                   </div>
                   
                   <div className="ml-9 space-y-4">
@@ -301,15 +299,15 @@ export default function GermanyStudyGuide() {
             </div>
 
             {/* Step 4 */}
-            <div className="flex gap-6 items-start group">
-              <div className="flex-shrink-0 w-16 h-16 bg-primary text-primary-foreground rounded-2xl flex items-center justify-center font-bold text-xl">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 items-start group">
+              <div className="shrink-0 w-12 h-12 sm:w-16 sm:h-16 bg-primary text-primary-foreground rounded-2xl flex items-center justify-center font-bold text-lg sm:text-xl">
                 4
               </div>
-              <Card className="flex-1 border-2 group-hover:border-primary transition-colors border-dashed">
+              <Card className="flex-1 w-full border-2 group-hover:border-primary transition-colors border-dashed">
                 <CardContent className="pt-6 pb-6 space-y-4">
                   <div className="flex items-center gap-3">
-                    <GraduationCap className="w-6 h-6" />
-                    <h3 className="text-2xl font-semibold">
+                    <GraduationCap className="w-6 h-6 shrink-0" />
+                    <h3 className="text-xl sm:text-2xl font-semibold">
                       Üniversite Öğrenci Belgesi (Opsiyonel - Aktif Öğrenciler İçin)
                     </h3>
                   </div>
@@ -357,23 +355,49 @@ export default function GermanyStudyGuide() {
             </div>
 
             {/* Step 5 */}
-            <div className="flex gap-6 items-start group">
-              <div className="flex-shrink-0 w-16 h-16 bg-primary text-primary-foreground rounded-2xl flex items-center justify-center font-bold text-xl">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 items-start group">
+              <div className="shrink-0 w-12 h-12 sm:w-16 sm:h-16 bg-primary text-primary-foreground rounded-2xl flex items-center justify-center font-bold text-lg sm:text-xl">
                 5
               </div>
-              <Card className="flex-1 border-2 group-hover:border-primary transition-colors">
+              <Card className="flex-1 w-full border-2 group-hover:border-primary transition-colors">
                 <CardContent className="pt-6 pb-6 space-y-4">
                   <div className="flex items-center gap-3">
-                    <FileText className="w-6 h-6" />
-                    <h3 className="text-2xl font-semibold">Belgeleri Apostil Yaptırma</h3>
+                    <FileText className="w-6 h-6 shrink-0" />
+                    <h3 className="text-xl sm:text-2xl font-semibold">Belgeleri Apostil Yaptırma</h3>
                   </div>
                   
                   <div className="ml-9 space-y-4">
                     <div className="bg-teal-50 border border-teal-200 rounded-lg p-4 space-y-3">
-                      <h4 className="font-semibold text-teal-900">🏢 Adım 5.1: Kaymakamlığa Git</h4>
-                      <div className="text-sm text-teal-800 space-y-2">
-                        <p>
-                          Size en yakın <strong>Kaymakamlık</strong>'a gidin. Apostil işlemini <strong>Kaymakamlık Yazı İşleri Bölümü</strong> yapar.
+                      <h4 className="font-semibold text-teal-900">🏢 Adım 5.1: Apostil Yaptırma Seçenekleri</h4>
+                      <div className="text-sm text-teal-800 space-y-3">
+                        <p className="font-medium">Apostil işlemi için iki seçeneğiniz var:</p>
+                        
+                        <div className="bg-white rounded p-3 border border-teal-200 space-y-2">
+                          <p className="font-semibold text-teal-900">Seçenek 1: Valilik (Ücretsiz)</p>
+                          <p className="text-xs text-gray-700">
+                            Size en yakın <strong>Valilik</strong> veya <strong>Kaymakamlık Yazı İşleri Bölümü</strong>'ne gidin. 
+                            Apostil işlemi ücretsizdir.
+                          </p>
+                        </div>
+                        
+                        <div className="bg-white rounded p-3 border border-teal-200 space-y-2">
+                          <p className="font-semibold text-teal-900">Seçenek 2: Almanya Başkonsolosluğu (Tasdik İşlemi - 60 EUR)</p>
+                          <p className="text-xs text-gray-700">
+                            Alternatif olarak <strong>Almanya Başkonsolosluğu</strong>'ndan tasdik işlemi yaptırabilirsiniz. 
+                            2025 itibarıyla ücreti <strong>60 EUR</strong>.
+                          </p>
+                          <a 
+                            href="https://tuerkei.diplo.de/tr-tr/service/1514568-1514568"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-xs text-teal-600 underline hover:text-teal-700 inline-block mt-1"
+                          >
+                            📄 Detaylı bilgi için tıklayın
+                          </a>
+                        </div>
+                        
+                        <p className="text-xs text-teal-700 mt-2">
+                          💡 <strong>Öneri:</strong> Valilik/Kaymakamlık ücretsiz olduğu için genellikle tercih edilir.
                         </p>
                       </div>
                     </div>
@@ -386,7 +410,7 @@ export default function GermanyStudyGuide() {
                           <ul className="space-y-2 text-gray-700 text-xs">
                             <li className="flex items-start gap-2">
                               <span className="text-violet-600 font-bold">1.</span>
-                              <span><strong>Lise Diploması</strong> (Orijinal - İlçe MEM onaylı)</span>
+                              <span><strong>Lise Diploması</strong> (Orijinal - İlçe MEM imzalı)</span>
                             </li>
                             <li className="flex items-start gap-2">
                               <span className="text-violet-600 font-bold">2.</span>
@@ -434,15 +458,15 @@ export default function GermanyStudyGuide() {
             </div>
 
             {/* Step 6 */}
-            <div className="flex gap-6 items-start group">
-              <div className="flex-shrink-0 w-16 h-16 bg-primary text-primary-foreground rounded-2xl flex items-center justify-center font-bold text-xl">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 items-start group">
+              <div className="shrink-0 w-12 h-12 sm:w-16 sm:h-16 bg-primary text-primary-foreground rounded-2xl flex items-center justify-center font-bold text-lg sm:text-xl">
                 6
               </div>
-              <Card className="flex-1 border-2 group-hover:border-primary transition-colors">
+              <Card className="flex-1 w-full border-2 group-hover:border-primary transition-colors">
                 <CardContent className="pt-6 pb-6 space-y-4">
                   <div className="flex items-center gap-3">
-                    <Building2 className="w-6 h-6" />
-                    <h3 className="text-2xl font-semibold">Belgeleri Uni-Assist'e Yükleme</h3>
+                    <Building2 className="w-6 h-6 shrink-0" />
+                    <h3 className="text-xl sm:text-2xl font-semibold">Belgeleri Uni-Assist'e Yükleme</h3>
                   </div>
                   
                   <div className="ml-9 space-y-4">
@@ -970,20 +994,38 @@ export default function GermanyStudyGuide() {
                     Almanya Konsolosluğu, dil okuluna gelecek öğrencilerin <strong>sıfırdan başlayacak olsalar bile en az A1 seviyesi Almanca sertifikası</strong> göstermelerini istiyor.
                   </p>
                   
+                  <div className="bg-amber-50 border border-amber-300 rounded p-3 mb-4">
+                    <p className="text-xs text-amber-800 font-medium">
+                      ⚠️ <strong>Minimum Seviye:</strong> A1 (Başlangıç seviyesi) - Ancak daha yüksek seviye sertifikalar (A2, B1, B2, C1, C2) da kabul edilir ve daha avantajlıdır.
+                    </p>
+                  </div>
+                  
                   <div className="grid md:grid-cols-2 gap-4 mt-4">
                     <div className="bg-pink-50 border border-pink-200 rounded-lg p-4">
-                      <h4 className="font-bold text-pink-900 mb-2">TELC A1 / A2</h4>
+                      <h4 className="font-bold text-pink-900 mb-2">TELC (Tüm Seviyeler)</h4>
+                      <p className="text-xs text-pink-800 mb-2">
+                        <strong>Seviyeler:</strong> A1, A2, B1, B2, C1, C2
+                      </p>
                       <p className="text-xs text-pink-800">
                         <strong>Ortalama açıklanma süresi:</strong> 3-6 hafta
                       </p>
                     </div>
                     
                     <div className="bg-pink-50 border border-pink-200 rounded-lg p-4">
-                      <h4 className="font-bold text-pink-900 mb-2">Goethe Institut A1 / A2</h4>
+                      <h4 className="font-bold text-pink-900 mb-2">Goethe Institut (Tüm Seviyeler)</h4>
+                      <p className="text-xs text-pink-800 mb-2">
+                        <strong>Seviyeler:</strong> A1, A2, B1, B2, C1, C2
+                      </p>
                       <p className="text-xs text-pink-800">
                         <strong>Ortalama açıklanma süresi:</strong> 10 gün (daha hızlı!)
                       </p>
                     </div>
+                  </div>
+                  
+                  <div className="bg-blue-50 border border-blue-200 rounded p-3 mt-3">
+                    <p className="text-xs text-blue-800">
+                      <strong>💡 Not:</strong> Vize için minimum A1 yeterli olsa da, eğer daha yüksek seviye bir sertifikanız varsa (B1, B2, C1, C2), bunları kullanmanız başvurunuzu güçlendirir.
+                    </p>
                   </div>
                   
                   <p className="text-xs text-pink-700 mt-3">
@@ -1006,7 +1048,7 @@ export default function GermanyStudyGuide() {
                   <h4 className="font-bold text-blue-900 text-lg">📊 Seçenek 1: Kilitli Hesap (Sperrkonto)</h4>
                   <div className="space-y-3">
                     <p className="text-sm text-blue-800">
-                      Almanya devletinin onayladığı bankalara <strong>10.000 EUR</strong> yatırmanız gerekiyor.
+                      Almanya devletinin onayladığı bankalara <strong>11.904 EUR</strong> yatırmanız gerekiyor.
                     </p>
                     
                     <div className="bg-white border border-blue-200 rounded p-4">
@@ -1165,51 +1207,100 @@ export default function GermanyStudyGuide() {
             {/* Health Insurance via SGK */}
             <Card className="border-2 border-teal-300 bg-teal-50">
               <CardContent className="pt-8 pb-8 space-y-4">
-                <h3 className="text-2xl font-semibold mb-4 text-teal-900">🏥 SGK Üzerinden Sağlık Sigortası</h3>
+                <h3 className="text-2xl font-semibold mb-4 text-teal-900">🏥 Sağlık Sigortası Seçenekleri</h3>
                 
                 <div className="bg-white border border-teal-200 rounded-lg p-5 space-y-4">
-                  <p className="text-sm text-teal-800">
-                    Ön lisans, lisans veya yüksek lisans eğitimi için gidecekseniz, SGK aracılığıyla sağlık sigortası alabilirsiniz.
+                  <p className="text-sm text-teal-800 font-semibold">
+                    Vize başvurusu için sağlık sigortası zorunludur. Üç farklı seçeneğiniz var:
                   </p>
-                  
-                  <div className="bg-teal-50 border border-teal-200 rounded p-4">
-                    <p className="text-sm font-semibold text-teal-900 mb-3">📄 İlçenizdeki SGK'ya Götürmeniz Gereken Belgeler:</p>
-                    <ul className="text-xs text-teal-800 space-y-2">
-                      <li className="flex items-start gap-2">
-                        <span className="text-teal-600 font-bold">1.</span>
-                        <span>Yurt dışında üniversiteden <strong>kabul edildiğinize dair belge</strong></span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-teal-600 font-bold">2.</span>
-                        <span>
-                          Öğrenim görülen üniversite/fakültenin <strong>ön lisans, lisans veya yüksek lisans seviyesinde olduğunu gösteren belge</strong>
-                          <br />
-                          <span className="text-[10px] text-gray-600">(e-Devlet, YÖK veya Türkiye'nin dış temsilciliklerinden alınabilir)</span>
-                        </span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-teal-600 font-bold">3.</span>
-                        <span>Okulun <strong>sömestr tarihlerini gösterir belge</strong></span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-teal-600 font-bold">4.</span>
-                        <span>
-                          <strong>"Sosyal Güvenlik Sözleşmesi İmzalanmış Ülkelerde Sağlık Yardımları Talep ve Beyan Taahhüt Belgesi"</strong>
-                          <br />
-                          <span className="text-[10px] text-gray-600">(Bu belgeyi SGK'dan alıp doldurup imzalayarak teslim etmeniz gerekiyor)</span>
-                        </span>
-                      </li>
-                    </ul>
+
+                  {/* Option 1: SGK */}
+                  <div className="bg-teal-50 border border-teal-300 rounded-lg p-4 space-y-3">
+                    <h4 className="font-bold text-teal-900">📋 Seçenek 1: SGK Üzerinden (Ücretsiz)</h4>
+                    <p className="text-sm text-teal-800">
+                      Ön lisans, lisans veya yüksek lisans eğitimi için gidecekseniz, SGK aracılığıyla ücretsiz sağlık sigortası alabilirsiniz.
+                    </p>
+                    
+                    <div className="bg-white border border-teal-200 rounded p-3">
+                      <p className="text-xs font-semibold text-teal-900 mb-2">İlçenizdeki SGK'ya Götürmeniz Gereken Belgeler:</p>
+                      <ul className="text-xs text-teal-800 space-y-2">
+                        <li className="flex items-start gap-2">
+                          <span className="text-teal-600 font-bold">1.</span>
+                          <span>Yurt dışında üniversiteden <strong>kabul edildiğinize dair belge</strong></span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="text-teal-600 font-bold">2.</span>
+                          <span>
+                            Öğrenim görülen üniversite/fakültenin <strong>ön lisans, lisans veya yüksek lisans seviyesinde olduğunu gösteren belge</strong>
+                            <br />
+                            <span className="text-[10px] text-gray-600">(e-Devlet, YÖK veya Türkiye'nin dış temsilciliklerinden alınabilir)</span>
+                          </span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="text-teal-600 font-bold">3.</span>
+                          <span>Okulun <strong>sömestr tarihlerini gösterir belge</strong></span>
+                        </li>
+                        <li className="flex items-start gap-2">
+                          <span className="text-teal-600 font-bold">4.</span>
+                          <span>
+                            <strong>"Sosyal Güvenlik Sözleşmesi İmzalanmış Ülkelerde Sağlık Yardımları Talep ve Beyan Taahhüt Belgesi"</strong>
+                            <br />
+                            <span className="text-[10px] text-gray-600">(Bu belgeyi SGK'dan alıp doldurup imzalayarak teslim etmeniz gerekiyor)</span>
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
-                  
+
+                  {/* Option 2: Sperrkonto Banks */}
+                  <div className="bg-blue-50 border border-blue-300 rounded-lg p-4 space-y-3">
+                    <h4 className="font-bold text-blue-900">🏦 Seçenek 2: Sperrkonto Bankalarının Sigorta Hizmeti</h4>
+                    <p className="text-sm text-blue-800">
+                      Eğer kilitli hesap (Sperrkonto) açtıysanız, bazı bankalar anlaşmalı sigorta kurumları aracılığıyla sağlık sigortası da sunuyor.
+                    </p>
+                    
+                    <div className="bg-white border border-blue-200 rounded p-3">
+                      <p className="text-xs text-blue-900 font-medium mb-2">Örnek Bankalar:</p>
+                      <ul className="text-xs text-blue-800 space-y-1">
+                        <li>• <strong>Fintiba:</strong> Hesap açarken ek sigorta paketi seçeneği</li>
+                        <li>• <strong>Expatrio:</strong> Combo paketi (hesap + sigorta)</li>
+                        <li>• <strong>Deutsche Bank:</strong> Anlaşmalı sigorta şirketleri ile paket</li>
+                      </ul>
+                      <p className="text-[10px] text-gray-600 mt-2">
+                        💡 Hesap açarken sigorta seçeneklerini kontrol edin, genellikle paket halinde daha uygun olabilir.
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Option 3: Private Insurance */}
+                  <div className="bg-purple-50 border border-purple-300 rounded-lg p-4 space-y-3">
+                    <h4 className="font-bold text-purple-900">🔒 Seçenek 3: Özel Sigorta Şirketleri (Ücretli)</h4>
+                    <p className="text-sm text-purple-800">
+                      Almanya'daki özel sigorta şirketlerinden direkt hizmet alabilirsiniz. Ücretlidir ancak daha kapsamlı kapsama sunabilir.
+                    </p>
+                    
+                    <div className="bg-white border border-purple-200 rounded p-3">
+                      <p className="text-xs text-purple-900 font-medium mb-2">Popüler Özel Sigorta Şirketleri:</p>
+                      <ul className="text-xs text-purple-800 space-y-1">
+                        <li>• <strong>Dr. Walter</strong></li>
+                        <li>• <strong>Mawista</strong></li>
+                        <li>• <strong>Care Concept</strong></li>
+                        <li>• <strong>HanseMerkur</strong></li>
+                      </ul>
+                      <p className="text-[10px] text-gray-600 mt-2">
+                        ⚠️ Özel sigortalar ücretlidir (genelde ~30-100 EUR/ay). SGK veya banka paketleri daha ekonomik olabilir.
+                      </p>
+                    </div>
+                  </div>
+
                   <div className="bg-amber-50 border border-amber-300 rounded p-4">
                     <p className="text-xs text-amber-800">
-                      <strong>⚠️ Önemli:</strong> SGK'ya başvuru yaparken <strong>"Sosyal Güvenlik Sözleşmesi İmzalanmış Ülkelerde Sağlık Yardımları Talep ve Beyan Taahhüt Belgesi"</strong>ni doldurmanız ve imzalamanız gerekir. Bu belge SGK şubesinde size verilecektir.
+                      <strong>⚠️ Önemli:</strong> Hangi seçeneği tercih ederseniz edin, vize başvurusu için geçerli bir sağlık sigortası belgesine ihtiyacınız vardır. Sigorta Almanya'nın kabul ettiği standartlarda olmalıdır.
                     </p>
                   </div>
                   
                   <p className="text-xs text-teal-700">
-                    💡 Bu belgeleri hazırlayıp ilçenizdeki SGK şubesine gidin ve yurtdışı sağlık sigortası talebinde bulunun.
+                    💡 <strong>Öneri:</strong> SGK ücretsiz olduğu için önce bu seçeneği değerlendirin. Uygun değilse Sperrkonto bankasının sunduğu pakete bakın.
                   </p>
                 </div>
               </CardContent>
@@ -1325,8 +1416,8 @@ export default function GermanyStudyGuide() {
                   <h3 className="text-xl font-bold mb-4 text-blue-900">📄 ÖSYM Belgeleri</h3>
                   <div className="space-y-2">
                     {[
-                      "ÖSYM YKS Sonuç Belgesi (5 nüsha, ıslak imzalı, mühürlü)",
-                      "ÖSYM YKS Yerleştirme Belgesi (5 nüsha, ıslak imzalı, mühürlü)",
+                      "ÖSYM YKS Sonuç Belgesi (Islak imzalı, mühürlü)",
+                      "ÖSYM YKS Yerleştirme Belgesi (Islak imzalı, mühürlü)",
                     ].map((item, index) => (
                       <div key={index} className="flex items-start gap-3 p-2">
                         <CheckCircle2 className="w-5 h-5 text-blue-600 shrink-0 mt-0.5" />
@@ -1343,7 +1434,7 @@ export default function GermanyStudyGuide() {
                   <h3 className="text-xl font-bold mb-4 text-purple-900">🎓 Diploma ve Onaylar</h3>
                   <div className="space-y-2">
                     {[
-                      "Lise Diploması (İlçe Milli Eğitim Müdürlüğü onaylı ve mühürlü)",
+                      "Lise Diploması (İlçe Milli Eğitim Müdürlüğü imzalı ve mühürlü)",
                       "Üniversite Öğrenci Belgesi (İsteğe bağlı - aktif öğrenciler için, İngilizce)",
                     ].map((item, index) => (
                       <div key={index} className="flex items-start gap-3 p-2">
@@ -1364,7 +1455,7 @@ export default function GermanyStudyGuide() {
                       "Lise Diploması Almanca Tercümesi (Noter onaylı)",
                       "YKS Sonuç Belgesi Almanca Tercümesi (Noter onaylı)",
                       "YKS Yerleştirme Belgesi Almanca Tercümesi (Noter onaylı)",
-                      "Tüm Belgelerin Apostil Damgalı Versiyonları (Kaymakamlık Yazı İşleri)",
+                      "Tüm Belgelerin Apostil Kağıtları (Kaymakamlık, Valilik, Almanya Başkonsolosluğu)",
                     ].map((item, index) => (
                       <div key={index} className="flex items-start gap-3 p-2">
                         <CheckCircle2 className="w-5 h-5 text-orange-600 shrink-0 mt-0.5" />
@@ -1401,14 +1492,13 @@ export default function GermanyStudyGuide() {
                   <h3 className="text-xl font-bold mb-4 text-pink-900">✈️ Vize İçin Belgeler</h3>
                   <div className="space-y-2">
                     {[
-                      "Almanca Dil Sertifikası (TELC A1/A2 veya Goethe A1/A2)",
+                      "Almanca Dil Sertifikası (TELC, Goethe veya ÖSD)",
                       "Üniversite Kabul Mektubu",
                       "Dil Kursu Kayıt Onayı (Eğer gerekiyorsa)",
                       "Öğrenim Niyeti Mektubu (Serbest yazılmış)",
                       "Finansal Kanıt (Kilitli hesap veya Verpflichtungserklärung)",
                       "Güncel CV",
-                      "SGK Sağlık Sigortası Belgesi",
-                      "Sosyal Güvenlik Sözleşmesi Talep ve Beyan Taahhüt Belgesi (SGK'dan)",
+                      "Sağlık Sigortası Belgesi",
                     ].map((item, index) => (
                       <div key={index} className="flex items-start gap-3 p-2">
                         <CheckCircle2 className="w-5 h-5 text-pink-600 shrink-0 mt-0.5" />
