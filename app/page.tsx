@@ -698,19 +698,25 @@ export default function GermanyStudyGuide() {
                 </div>
               </CardContent>
             </Card>
-          </div>
-        </div>
-      </section>
 
-      {/* Step 7 - University Selection */}
-      <section className="py-16 md:py-24 bg-white">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-5xl font-bold text-center mb-4">7. Üniversite ve Bölüm Seçimi</h2>
-          <p className="text-center text-muted-foreground mb-16 text-lg max-w-3xl mx-auto">
-            Doğru üniversite ve bölüm seçimi başarınızı etkiler. NC türleri ve bölüm uyumluluğuna dikkat edin.
-          </p>
+            {/* Step 7 - University Selection */}
+            <Card className="border-2 hover:border-primary transition-colors">
+              <CardContent className="pt-6 pb-6 space-y-4">
+                <div className="flex items-center gap-3">
+                  <div className="shrink-0 w-12 h-12 bg-primary text-primary-foreground rounded-2xl flex items-center justify-center font-bold text-xl">
+                    7
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <GraduationCap className="w-6 h-6 shrink-0" />
+                    <h3 className="text-xl sm:text-2xl font-semibold">Üniversite ve Bölüm Seçimi</h3>
+                  </div>
+                </div>
+                
+                <div className="space-y-6">
+                  <p className="text-muted-foreground">
+                    Doğru üniversite ve bölüm seçimi başarınızı etkiler. NC türleri ve bölüm uyumluluğuna dikkat edin.
+                  </p>
 
-          <div className="max-w-4xl mx-auto space-y-8">
             {/* NC Types */}
             <Card className="border-2">
               <CardContent className="pt-8 pb-8 space-y-4">
@@ -1081,19 +1087,28 @@ export default function GermanyStudyGuide() {
                 </div>
               </CardContent>
             </Card>
-          </div>
-        </div>
-      </section>
+                </div>
+              </CardContent>
+            </Card>
 
-      {/* Step 8 - Visa Process */}
-      <section className="py-16 md:py-24 bg-white">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-5xl font-bold text-center mb-4">8. Vize Süreci</h2>
-          <p className="text-center text-muted-foreground mb-16 text-lg max-w-3xl mx-auto">
-            Almanya öğrenci vizesi için gerekli belgeler ve finansal kanıtlama süreçleri
-          </p>
+            {/* Step 8 - Visa Process */}
+            <Card className="border-2 hover:border-primary transition-colors">
+              <CardContent className="pt-6 pb-6 space-y-4">
+                <div className="flex items-center gap-3">
+                  <div className="shrink-0 w-12 h-12 bg-primary text-primary-foreground rounded-2xl flex items-center justify-center font-bold text-xl">
+                    8
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <Plane className="w-6 h-6 shrink-0" />
+                    <h3 className="text-xl sm:text-2xl font-semibold">Vize Süreci</h3>
+                  </div>
+                </div>
+                
+                <div className="space-y-6">
+                  <p className="text-muted-foreground">
+                    Almanya öğrenci vizesi için gerekli belgeler ve finansal kanıtlama süreçleri
+                  </p>
 
-          <div className="max-w-4xl mx-auto space-y-8">
             {/* Language Certificate Requirement */}
             <Card className="border-2 border-pink-300 bg-pink-50">
               <CardContent className="pt-8 pb-8 space-y-4">
@@ -1450,6 +1465,9 @@ export default function GermanyStudyGuide() {
                       <li>Konsolosluğa gidin ve başvurunuzu tamamlayın</li>
                     </ol>
                   </div>
+                </div>
+              </CardContent>
+            </Card>
                 </div>
               </CardContent>
             </Card>
