@@ -21,14 +21,9 @@ export default function GermanyStudyGuide() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-white py-20 md:py-32">
-        <div className="container mx-auto px-4 relative z-10">
+      <section className="relative overflow-hidden bg-white min-h-screen flex items-center">
+        <div className="container mx-auto px-4 relative z-10 w-full">
           <div className="max-w-5xl mx-auto text-center space-y-8">
-            {/* Badge */}
-            <div className="inline-flex items-center gap-2 bg-green-50 px-4 py-2 rounded-full border border-green-200">
-              <CheckCircle2 className="w-4 h-4 text-green-600" />
-              <span className="text-sm font-semibold text-green-900">Tamamen Ücretsiz • Güncel • Güvenilir</span>
-            </div>
 
             {/* Main Heading */}
             <h1 className="text-5xl md:text-7xl font-black tracking-tight text-balance leading-tight text-gray-900">
