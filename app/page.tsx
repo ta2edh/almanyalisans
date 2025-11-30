@@ -115,12 +115,34 @@ export default function GermanyStudyGuide() {
                         'nu indir ve yazdır.
                       </p>
                       
-                      <div className="bg-white rounded p-3 space-y-2 text-sm">
+                      <div className="bg-white rounded p-3 space-y-3 text-sm">
                         <p className="font-medium text-gray-900">Doldurulacak Alanlar:</p>
-                        <ul className="space-y-1 text-gray-700">
+                        
+                        <div className="bg-amber-50 border border-amber-200 rounded p-3 space-y-2">
+                          <p className="font-semibold text-amber-900 text-xs">⚠️ Önemli: Evrak Referans Numarası</p>
+                          <p className="text-xs text-amber-800">
+                            <strong>Evrak Referans Numarası</strong> ÖSYM Aday İşlemleri Sistemi'nden alınacak.
+                          </p>
+                        </div>
+                        
+                        <ul className="space-y-1 text-gray-700 text-xs">
+                          <li>• <strong>Evrak Referans No:</strong> ÖSYM Aday İşlemleri Sistemi'nden alınacak</li>
+                          <li>• <strong>T.C. Kimlik No:</strong> [TC KİMLİK NUMARANIZ]</li>
+                          <li>• <strong>Ad Soyad:</strong> [ADINIZ SOYADINIZ]</li>
+                          <li>• <strong>E-posta:</strong> [E-POSTA ADRESİNİZ]</li>
+                          <li>• <strong>Telefon No:</strong> [TELEFON NUMARANIZ]</li>
+                          <li>• <strong>Doğum Tarihi:</strong> [GG/AA/YYYY]</li>
+                          <li>• <strong>Doğum Yeri:</strong> [DOĞUM YERİNİZ]</li>
+                          <li>• <strong>Yazışma Adresi:</strong> ÖSYM tarafından belgelerin gönderilmesini istediğiniz tam adres</li>
                           <li>• <strong>Sınav Dönemi:</strong> [SINAVA GİRDİĞİN YIL]-YKS (örn: 2025-YKS)</li>
                           <li>• <strong>SINAV ADI / YILI:</strong> Yükseköğretim Kurumları Sınavı / [SINAVA GİRDİĞİN YIL]</li>
                         </ul>
+                        
+                        <div className="bg-red-50 border border-red-200 rounded p-3 mt-2">
+                          <p className="text-xs text-red-800 font-medium">
+                            ⚠️ Tüm bilgiler eksiksiz ve doğru olmalıdır! Eksik veya hatalı bilgi başvurunuzun reddine neden olabilir.
+                          </p>
+                        </div>
                       </div>
                       
                       <div className="bg-white rounded p-3 text-sm">
