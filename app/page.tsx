@@ -166,7 +166,7 @@ export default function GermanyStudyGuide() {
                         <p className="font-medium">Gönderim Adresi:</p>
                         <div className="bg-white rounded p-3 border border-amber-200">
                           <p className="font-mono text-xs leading-relaxed">
-                            ÜÖğrenci Seçme ve Yerleştirme Merkezi (ÖSYM)<br />
+                            Öğrenci Seçme ve Yerleştirme Merkezi (ÖSYM) Başkanlığı<br />
                             Üniversiteler Mahallesi<br />
                             İhsan Doğramacı Bulvarı No:4D<br />
                             06800 Bilkent Çankaya / ANKARA
