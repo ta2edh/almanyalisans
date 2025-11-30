@@ -1208,7 +1208,7 @@ export default function GermanyStudyGuide() {
                       </li>
                       <li className="flex items-start gap-2">
                         <span className="text-green-600 font-bold">•</span>
-                        <span>Düzenli geliri olmalı (genelde en az ~2.800–3.000 € net aylık gelir)</span>
+                        <span>Düzenli geliri olmalı (2025 yılı itibariyle minimum gereksinimler aşağıdaki tabloda)</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <span className="text-green-600 font-bold">•</span>
@@ -1219,6 +1219,48 @@ export default function GermanyStudyGuide() {
                         <span>Mali durumu temiz olmalı (borçsuz)</span>
                       </li>
                     </ul>
+                    
+                    <div className="mt-4 bg-green-50 border border-green-300 rounded p-3">
+                      <p className="text-xs font-semibold text-green-900 mb-2">💰 2025 Yılı Minimum Net Gelir Gereksinimleri</p>
+                      <p className="text-[10px] text-gray-600 mb-3">
+                        Sponsorun bakmakla yükümlü olduğu kişi sayısına göre minimum hacze karşı korunan net aylık gelir (Pfändungsfreigrenzen):
+                      </p>
+                      <div className="overflow-x-auto">
+                        <table className="w-full text-[10px] border border-green-200">
+                          <thead className="bg-green-100">
+                            <tr>
+                              <th className="border border-green-200 px-2 py-1 text-left">Bakmakla Yükümlü Kişi Sayısı</th>
+                              <th className="border border-green-200 px-2 py-1 text-left">Hacze Karşı Korunan Net Aylık Gelir (€)</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td className="border border-green-200 px-2 py-1">0 kişi (bekar, çocuksuz)</td>
+                              <td className="border border-green-200 px-2 py-1 font-semibold">2.980,00 € ve üzeri</td>
+                            </tr>
+                            <tr className="bg-green-50">
+                              <td className="border border-green-200 px-2 py-1">1 kişi (örn: eş veya 1 çocuk)</td>
+                              <td className="border border-green-200 px-2 py-1 font-semibold">4.130,00 € ve üzeri</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <p className="text-[9px] text-gray-600 mt-3">
+                        <strong>Not:</strong> 4.767,00 € üzerindeki gelirler tamamen hacze konu olabilir ("Der Mehrbetrag über 4.766,99 Euro ist voll pfändbar").
+                      </p>
+                      <p className="text-[9px] text-gray-500 mt-2">
+                        💡 Kaynak: Almanya Resmi Gazetesi - Pfändungsfreigrenzen 2025 
+                        (<a 
+                          href="https://stadt.muenchen.de/dam/jcr:dad64ccb-c95b-4746-8a7f-94327827af20/Pfaendungsfreigrenzen_2025.pdf"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-green-600 underline hover:text-green-700"
+                        >Detaylı Tablo</a>)
+                      </p>
+                      <p className="text-[9px] text-amber-700 mt-2">
+                        ⚠️ Bu miktarlar haciz muafiyeti limitlerine (Pfändungsfreigrenzen) dayanır. VE için yabancılar dairesi, sponsorun bu limitler üzerinde gelire sahip olmasını ve bakmakla yükümlü olduğu kişileri de göz önünde bulundurarak yeterli finansal güce sahip olduğunu değerlendirir.
+                      </p>
+                    </div>
                   </div>
 
                   {/* How to Get VE */}
