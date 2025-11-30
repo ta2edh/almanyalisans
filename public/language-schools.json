@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Goethe-Institut Berlin",
+    "city": "Berlin",
+    "state": "Berlin",
+    "monthlyFee": 450,
+    "intensiveCourse": true,
+    "levels": ["A1", "A2", "B1", "B2", "C1", "C2"]
+  },
+  {
+    "id": 2,
+    "name": "Goethe-Institut München",
+    "city": "München",
+    "state": "Bayern",
+    "monthlyFee": 470,
+    "intensiveCourse": true,
+    "levels": ["A1", "A2", "B1", "B2", "C1", "C2"]
+  },
+  {
+    "id": 3,
+    "name": "DeutschAkademie Berlin",
+    "city": "Berlin",
+    "state": "Berlin",
+    "monthlyFee": 275,
+    "intensiveCourse": true,
+    "levels": ["A1", "A2", "B1", "B2", "C1"]
+  },
+  {
+    "id": 4,
+    "name": "Sprachschule Aktiv München",
+    "city": "München",
+    "state": "Bayern",
+    "monthlyFee": 299,
+    "intensiveCourse": true,
+    "levels": ["A1", "A2", "B1", "B2", "C1"]
+  },
+  {
+    "id": 5,
+    "name": "Berlitz Frankfurt",
+    "city": "Frankfurt",
+    "state": "Hessen",
+    "monthlyFee": 520,
+    "intensiveCourse": true,
+    "levels": ["A1", "A2", "B1", "B2", "C1", "C2"]
+  },
+  {
+    "id": 6,
+    "name": "Deutsch Akademie Hamburg",
+    "city": "Hamburg",
+    "state": "Hamburg",
+    "monthlyFee": 285,
+    "intensiveCourse": true,
+    "levels": ["A1", "A2", "B1", "B2", "C1"]
+  },
+  {
+    "id": 7,
+    "name": "Inlingua Köln",
+    "city": "Köln",
+    "state": "Nordrhein-Westfalen",
+    "monthlyFee": 380,
+    "intensiveCourse": true,
+    "levels": ["A1", "A2", "B1", "B2", "C1", "C2"]
+  },
+  {
+    "id": 8,
+    "name": "Sprachcaffe Düsseldorf",
+    "city": "Düsseldorf",
+    "state": "Nordrhein-Westfalen",
+    "monthlyFee": 310,
+    "intensiveCourse": true,
+    "levels": ["A1", "A2", "B1", "B2", "C1"]
+  },
+  {
+    "id": 9,
+    "name": "Alpha Aktiv Stuttgart",
+    "city": "Stuttgart",
+    "state": "Baden-Württemberg",
+    "monthlyFee": 295,
+    "intensiveCourse": true,
+    "levels": ["A1", "A2", "B1", "B2", "C1"]
+  },
+  {
+    "id": 10,
+    "name": "Carl Duisberg Centren Berlin",
+    "city": "Berlin",
+    "state": "Berlin",
+    "monthlyFee": 420,
+    "intensiveCourse": true,
+    "levels": ["A1", "A2", "B1", "B2", "C1", "C2"]
+  },
+  {
+    "id": 11,
+    "name": "Tandem Köln",
+    "city": "Köln",
+    "state": "Nordrhein-Westfalen",
+    "monthlyFee": 340,
+    "intensiveCourse": true,
+    "levels": ["A1", "A2", "B1", "B2", "C1"]
+  },
+  {
+    "id": 12,
+    "name": "Deutsch.online Hamburg",
+    "city": "Hamburg",
+    "state": "Hamburg",
+    "monthlyFee": 260,
+    "intensiveCourse": false,
+    "levels": ["A1", "A2", "B1", "B2"]
+  }
+]

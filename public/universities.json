@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Universität Duisburg-Essen",
+    "city": "Essen/Duisburg",
+    "state": "Nordrhein-Westfalen",
+    "minLanguageLevel": "Başvuruda dil belgesi yok",
+    "semesterFee": 340,
+    "tuitionFree": true,
+    "programs": ["Mühendislik", "Fen Bilimleri", "Sosyal Bilimler"]
+  },
+  {
+    "id": 2,
+    "name": "Universität Bremen",
+    "city": "Bremen",
+    "state": "Bremen",
+    "minLanguageLevel": "Başvuruda dil belgesi yok",
+    "semesterFee": 382,
+    "tuitionFree": true,
+    "programs": ["Mühendislik", "Fen Bilimleri", "Sosyal Bilimler"]
+  },
+  {
+    "id": 3,
+    "name": "TU Dortmund",
+    "city": "Dortmund",
+    "state": "Nordrhein-Westfalen",
+    "minLanguageLevel": "Başvuruda dil belgesi yok",
+    "semesterFee": 315,
+    "tuitionFree": true,
+    "programs": ["Mühendislik", "Fen Bilimleri", "Bilgisayar"]
+  },
+  {
+    "id": 4,
+    "name": "TU Clausthal",
+    "city": "Clausthal-Zellerfeld",
+    "state": "Niedersachsen",
+    "minLanguageLevel": "Başvuruda dil belgesi yok",
+    "semesterFee": 297,
+    "tuitionFree": true,
+    "programs": ["Mühendislik", "Enerji", "Malzeme"]
+  },
+  {
+    "id": 5,
+    "name": "Universität des Saarlandes",
+    "city": "Saarbrücken",
+    "state": "Saarland",
+    "minLanguageLevel": "Başvuruda dil belgesi yok",
+    "semesterFee": 280,
+    "tuitionFree": true,
+    "programs": ["Bilgisayar", "Mühendislik", "Tıp"]
+  },
+  {
+    "id": 6,
+    "name": "RWTH Aachen",
+    "city": "Aachen",
+    "state": "Nordrhein-Westfalen",
+    "minLanguageLevel": "C1",
+    "semesterFee": 312,
+    "tuitionFree": true,
+    "programs": ["Mühendislik", "Fen Bilimleri", "Mimarlık"]
+  },
+  {
+    "id": 7,
+    "name": "TU München",
+    "city": "München",
+    "state": "Bayern",
+    "minLanguageLevel": "C1",
+    "semesterFee": 144,
+    "tuitionFree": true,
+    "programs": ["Mühendislik", "Bilgisayar", "Fen Bilimleri"]
+  },
+  {
+    "id": 8,
+    "name": "Universität Stuttgart",
+    "city": "Stuttgart",
+    "state": "Baden-Württemberg",
+    "minLanguageLevel": "B2/C1",
+    "semesterFee": 183,
+    "tuitionFree": true,
+    "programs": ["Mühendislik", "Mimarlık", "Bilgisayar"]
+  },
+  {
+    "id": 9,
+    "name": "LMU München",
+    "city": "München",
+    "state": "Bayern",
+    "minLanguageLevel": "C1",
+    "semesterFee": 144,
+    "tuitionFree": true,
+    "programs": ["Tıp", "Hukuk", "Sosyal Bilimler"]
+  },
+  {
+    "id": 10,
+    "name": "Humboldt-Universität Berlin",
+    "city": "Berlin",
+    "state": "Berlin",
+    "minLanguageLevel": "C1",
+    "semesterFee": 315,
+    "tuitionFree": true,
+    "programs": ["Sosyal Bilimler", "Hukuk", "Edebiyat"]
+  }
+]

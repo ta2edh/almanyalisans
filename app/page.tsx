@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
+import Comments from "@/components/comments"
 import {
   CheckCircle2,
   XCircle,
@@ -12,23 +13,108 @@ import {
   Plane,
   AlertTriangle,
   CheckSquare,
+  MessageSquare,
+  Languages,
 } from "lucide-react"
 
 export default function GermanyStudyGuide() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="container mx-auto px-4 py-16 md:py-24">
-        <div className="max-w-4xl mx-auto text-center space-y-6">
-          <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-balance leading-tight">
-            Almanya'da Lisans Başvurusu — Paran Danışmanlara Gitmesin
-          </h1>
-          <p className="text-xl text-muted-foreground text-pretty leading-relaxed">
-            Tüm süreci kendin yapabilirsin. Adım adım, ücretsiz rehber.
-          </p>
-          <Button size="lg" className="text-lg px-8 py-6 rounded-xl" asChild>
-            <a href="#steps">Adımları Gör</a>
-          </Button>
+      <section className="relative overflow-hidden bg-white py-20 md:py-32">
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="max-w-5xl mx-auto text-center space-y-8">
+            {/* Badge */}
+            <div className="inline-flex items-center gap-2 bg-green-50 px-4 py-2 rounded-full border border-green-200">
+              <CheckCircle2 className="w-4 h-4 text-green-600" />
+              <span className="text-sm font-semibold text-green-900">Tamamen Ücretsiz • Güncel • Güvenilir</span>
+            </div>
+
+            {/* Main Heading */}
+            <h1 className="text-5xl md:text-7xl font-black tracking-tight text-balance leading-tight text-gray-900">
+              Almanya'da Lisans Başvurusu
+              <br />
+              <span className="text-blue-600">Artık Çok Kolay</span>
+            </h1>
+
+            {/* Subheading */}
+            <p className="text-2xl md:text-3xl font-bold text-gray-700">
+              <span className="bg-red-100 px-3 py-1 rounded-lg text-red-600 line-through">20.000₺ - 50.000₺</span>
+              <span className="mx-3">→</span>
+              <span className="bg-green-100 px-3 py-1 rounded-lg text-green-600">0₺</span>
+            </p>
+
+            {/* Description */}
+            <div className="max-w-3xl mx-auto space-y-4">
+              <p className="text-xl md:text-2xl text-gray-600 leading-relaxed">
+                Danışmanlara binlerce lira ödeme. <strong className="text-gray-900">Tüm işlemleri kendin yap,</strong> parasını cebinde tut.
+              </p>
+            </div>
+
+            {/* CTA Buttons */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
+              <Button 
+                size="lg" 
+                className="text-lg px-12 py-7 rounded-full bg-blue-600 hover:bg-blue-700 shadow-lg hover:shadow-xl transition-all hover:scale-105 font-bold"
+                asChild
+              >
+                <a href="#steps">
+                  Ücretsiz Başla →
+                </a>
+              </Button>
+              <Button 
+                size="lg" 
+                variant="outline"
+                className="text-lg px-12 py-7 rounded-full border-2 border-blue-600 hover:bg-blue-50 transition-all font-semibold text-blue-700"
+                asChild
+              >
+                <a href="/universities">
+                  <GraduationCap className="w-5 h-5 mr-2" />
+                  Üniversite Listesi
+                </a>
+              </Button>
+              <Button 
+                size="lg" 
+                variant="outline"
+                className="text-lg px-12 py-7 rounded-full border-2 border-purple-600 hover:bg-purple-50 transition-all font-semibold text-purple-700"
+                asChild
+              >
+                <a href="/language-schools">
+                  <Languages className="w-5 h-5 mr-2" />
+                  Dil Kursları
+                </a>
+              </Button>
+              <Button 
+                size="lg" 
+                variant="outline"
+                className="text-lg px-12 py-7 rounded-full border-2 border-gray-300 hover:border-gray-400 hover:bg-gray-50 transition-all font-semibold text-gray-700"
+                asChild
+              >
+                <a href="#genel-yorumlar">
+                  Soru Sor
+                </a>
+              </Button>
+            </div>
+
+            {/* Social Proof */}
+            <div className="pt-8 border-t border-gray-200 max-w-2xl mx-auto">
+              <div className="flex flex-wrap justify-center items-center gap-8">
+                <div className="flex items-center gap-2">
+                  <div className="flex -space-x-2">
+                    <div className="w-8 h-8 rounded-full bg-blue-500 border-2 border-white"></div>
+                    <div className="w-8 h-8 rounded-full bg-green-500 border-2 border-white"></div>
+                    <div className="w-8 h-8 rounded-full bg-purple-500 border-2 border-white"></div>
+                    <div className="w-8 h-8 rounded-full bg-pink-500 border-2 border-white"></div>
+                  </div>
+                  <span className="text-sm font-medium text-gray-600">Yüzlerce öğrenci kullandı</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <CheckCircle2 className="w-5 h-5 text-green-600" />
+                  <span className="text-sm font-medium text-gray-600">Güncel 2025 bilgileri</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -80,7 +166,7 @@ export default function GermanyStudyGuide() {
       </section>
 
       {/* Steps Timeline */}
-      <section id="steps" className="py-16 md:py-24">
+      <section id="steps" className="py-16 md:py-24 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-5xl font-bold text-center mb-4">Başvuru İçin Gerekli Temel Adımlar</h2>
           <p className="text-center text-muted-foreground mb-16 text-lg">
@@ -89,18 +175,19 @@ export default function GermanyStudyGuide() {
 
           <div className="max-w-4xl mx-auto space-y-8">
             {/* Step 1 */}
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 items-start group">
-              <div className="shrink-0 w-12 h-12 sm:w-16 sm:h-16 bg-primary text-primary-foreground rounded-2xl flex items-center justify-center font-bold text-lg sm:text-xl">
-                1
-              </div>
-              <Card className="flex-1 w-full border-2 group-hover:border-primary transition-colors">
-                <CardContent className="pt-6 pb-6 space-y-4">
+            <Card className="border-2 hover:border-primary transition-colors">
+              <CardContent className="pt-6 pb-6 space-y-4">
+                <div className="flex items-center gap-3">
+                  <div className="shrink-0 w-12 h-12 bg-primary text-primary-foreground rounded-2xl flex items-center justify-center font-bold text-xl">
+                    1
+                  </div>
                   <div className="flex items-center gap-3">
                     <FileText className="w-6 h-6 shrink-0" />
                     <h3 className="text-xl sm:text-2xl font-semibold">ÖSYM'den Belgeleri Alma</h3>
                   </div>
-                  
-                  <div className="ml-9 space-y-4">
+                </div>
+                
+                <div className="space-y-4">
                     <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 space-y-3">
                       <h4 className="font-semibold text-blue-900">📝 Adım 1.1: Dilekçe İndir ve Doldur</h4>
                       <p className="text-sm text-blue-800">
@@ -187,24 +274,24 @@ export default function GermanyStudyGuide() {
                         📋 Gelen belgeler: YKS Sonuç Belgesi ve Yerleştirme Sonuç Belgesi (her birinden 5 nüsha)
                       </p>
                     </div>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
+                </div>
+              </CardContent>
+            </Card>
 
             {/* Step 2 */}
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 items-start group">
-              <div className="shrink-0 w-12 h-12 sm:w-16 sm:h-16 bg-primary text-primary-foreground rounded-2xl flex items-center justify-center font-bold text-lg sm:text-xl">
-                2
-              </div>
-              <Card className="flex-1 w-full border-2 group-hover:border-primary transition-colors">
-                <CardContent className="pt-6 pb-6 space-y-4">
+            <Card className="border-2 hover:border-primary transition-colors">
+              <CardContent className="pt-6 pb-6 space-y-4">
+                <div className="flex items-center gap-3">
+                  <div className="shrink-0 w-12 h-12 bg-primary text-primary-foreground rounded-2xl flex items-center justify-center font-bold text-xl">
+                    2
+                  </div>
                   <div className="flex items-center gap-3">
                     <GraduationCap className="w-6 h-6 shrink-0" />
                     <h3 className="text-xl sm:text-2xl font-semibold">Lise Diplomasını İmzalatma</h3>
                   </div>
-                  
-                  <div className="ml-9 space-y-4">
+                </div>
+                
+                <div className="space-y-4">
                     <div className="bg-purple-50 border border-purple-200 rounded-lg p-4 space-y-3">
                       <h4 className="font-semibold text-purple-900">🏫 Adım 2.1: İlçe Milli Eğitim Müdürlüğüne Git</h4>
                       <p className="text-sm text-purple-800">
@@ -250,24 +337,24 @@ export default function GermanyStudyGuide() {
                         </div>
                       </div>
                     </div>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
+                </div>
+              </CardContent>
+            </Card>
 
             {/* Step 3 */}
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 items-start group">
-              <div className="shrink-0 w-12 h-12 sm:w-16 sm:h-16 bg-primary text-primary-foreground rounded-2xl flex items-center justify-center font-bold text-lg sm:text-xl">
-                3
-              </div>
-              <Card className="flex-1 w-full border-2 group-hover:border-primary transition-colors">
-                <CardContent className="pt-6 pb-6 space-y-4">
+            <Card className="border-2 hover:border-primary transition-colors">
+              <CardContent className="pt-6 pb-6 space-y-4">
+                <div className="flex items-center gap-3">
+                  <div className="shrink-0 w-12 h-12 bg-primary text-primary-foreground rounded-2xl flex items-center justify-center font-bold text-xl">
+                    3
+                  </div>
                   <div className="flex items-center gap-3">
                     <Globe className="w-6 h-6 shrink-0" />
-                    <h3 className="text-xl sm:text-2xl font-semibold">Belgeleri Almanca Yeminl Tercümana Çevirtme</h3>
+                    <h3 className="text-xl sm:text-2xl font-semibold">Belgeleri Almanca Yeminli Tercümana Çevirtme</h3>
                   </div>
-                  
-                  <div className="ml-9 space-y-4">
+                </div>
+                
+                <div className="space-y-4">
                     <div className="bg-orange-50 border border-orange-200 rounded-lg p-4 space-y-3">
                       <h4 className="font-semibold text-orange-900">📄 Adım 3.1: Çevrilecek Belgeler</h4>
                       <div className="text-sm text-orange-800 space-y-2">
@@ -316,26 +403,26 @@ export default function GermanyStudyGuide() {
                         </p>
                       </div>
                     </div>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
+                </div>
+              </CardContent>
+            </Card>
 
             {/* Step 4 */}
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 items-start group">
-              <div className="shrink-0 w-12 h-12 sm:w-16 sm:h-16 bg-primary text-primary-foreground rounded-2xl flex items-center justify-center font-bold text-lg sm:text-xl">
-                4
-              </div>
-              <Card className="flex-1 w-full border-2 group-hover:border-primary transition-colors border-dashed">
-                <CardContent className="pt-6 pb-6 space-y-4">
+            <Card className="border-2 hover:border-primary transition-colors border-dashed">
+              <CardContent className="pt-6 pb-6 space-y-4">
+                <div className="flex items-center gap-3">
+                  <div className="shrink-0 w-12 h-12 bg-primary text-primary-foreground rounded-2xl flex items-center justify-center font-bold text-xl">
+                    4
+                  </div>
                   <div className="flex items-center gap-3">
                     <GraduationCap className="w-6 h-6 shrink-0" />
                     <h3 className="text-xl sm:text-2xl font-semibold">
                       Üniversite Öğrenci Belgesi (Opsiyonel - Aktif Öğrenciler İçin)
                     </h3>
                   </div>
-                  
-                  <div className="ml-9 space-y-4">
+                </div>
+                
+                <div className="space-y-4">
                     <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 space-y-3">
                       <h4 className="font-semibold text-blue-900">ℹ️ Bu Adım Kimin İçin?</h4>
                       <p className="text-sm text-blue-800">
@@ -372,24 +459,24 @@ export default function GermanyStudyGuide() {
                         </div>
                       </div>
                     </div>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
+                </div>
+              </CardContent>
+            </Card>
 
             {/* Step 5 */}
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 items-start group">
-              <div className="shrink-0 w-12 h-12 sm:w-16 sm:h-16 bg-primary text-primary-foreground rounded-2xl flex items-center justify-center font-bold text-lg sm:text-xl">
-                5
-              </div>
-              <Card className="flex-1 w-full border-2 group-hover:border-primary transition-colors">
-                <CardContent className="pt-6 pb-6 space-y-4">
+            <Card className="border-2 hover:border-primary transition-colors">
+              <CardContent className="pt-6 pb-6 space-y-4">
+                <div className="flex items-center gap-3">
+                  <div className="shrink-0 w-12 h-12 bg-primary text-primary-foreground rounded-2xl flex items-center justify-center font-bold text-xl">
+                    5
+                  </div>
                   <div className="flex items-center gap-3">
                     <FileText className="w-6 h-6 shrink-0" />
                     <h3 className="text-xl sm:text-2xl font-semibold">Belgeleri Apostil Yaptırma</h3>
                   </div>
-                  
-                  <div className="ml-9 space-y-4">
+                </div>
+                
+                <div className="space-y-4">
                     <div className="bg-teal-50 border border-teal-200 rounded-lg p-4 space-y-3">
                       <h4 className="font-semibold text-teal-900">🏢 Adım 5.1: Apostil Yaptırma Seçenekleri</h4>
                       <div className="text-sm text-teal-800 space-y-3">
@@ -475,24 +562,24 @@ export default function GermanyStudyGuide() {
                         </p>
                       </div>
                     </div>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
+                </div>
+              </CardContent>
+            </Card>
 
             {/* Step 6 */}
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 items-start group">
-              <div className="shrink-0 w-12 h-12 sm:w-16 sm:h-16 bg-primary text-primary-foreground rounded-2xl flex items-center justify-center font-bold text-lg sm:text-xl">
-                6
-              </div>
-              <Card className="flex-1 w-full border-2 group-hover:border-primary transition-colors">
-                <CardContent className="pt-6 pb-6 space-y-4">
+            <Card className="border-2 hover:border-primary transition-colors">
+              <CardContent className="pt-6 pb-6 space-y-4">
+                <div className="flex items-center gap-3">
+                  <div className="shrink-0 w-12 h-12 bg-primary text-primary-foreground rounded-2xl flex items-center justify-center font-bold text-xl">
+                    6
+                  </div>
                   <div className="flex items-center gap-3">
                     <Building2 className="w-6 h-6 shrink-0" />
                     <h3 className="text-xl sm:text-2xl font-semibold">Belgeleri Uni-Assist'e Yükleme</h3>
                   </div>
-                  
-                  <div className="ml-9 space-y-4">
+                </div>
+                
+                <div className="space-y-4">
                     <div className="bg-sky-50 border border-sky-200 rounded-lg p-4 space-y-3">
                       <h4 className="font-semibold text-sky-900">🖨️ Adım 6.1: Belgeleri Taratma</h4>
                       <div className="text-sm text-sky-800 space-y-2">
@@ -608,23 +695,22 @@ export default function GermanyStudyGuide() {
                         </div>
                       </div>
                     </div>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
 
       {/* Step 7 - University Selection */}
-      <section className="py-16 md:py-24 bg-gradient-to-b from-white to-gray-50">
+      <section className="py-16 md:py-24 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-5xl font-bold text-center mb-4">7. Üniversite ve Bölüm Seçimi</h2>
           <p className="text-center text-muted-foreground mb-16 text-lg max-w-3xl mx-auto">
             Doğru üniversite ve bölüm seçimi başarınızı etkiler. NC türleri ve bölüm uyumluluğuna dikkat edin.
           </p>
 
-          <div className="max-w-5xl mx-auto space-y-6">
+          <div className="max-w-4xl mx-auto space-y-8">
             {/* NC Types */}
             <Card className="border-2">
               <CardContent className="pt-8 pb-8 space-y-4">
@@ -1007,7 +1093,7 @@ export default function GermanyStudyGuide() {
             Almanya öğrenci vizesi için gerekli belgeler ve finansal kanıtlama süreçleri
           </p>
 
-          <div className="max-w-5xl mx-auto space-y-6">
+          <div className="max-w-4xl mx-auto space-y-8">
             {/* Language Certificate Requirement */}
             <Card className="border-2 border-pink-300 bg-pink-50">
               <CardContent className="pt-8 pb-8 space-y-4">
@@ -1536,6 +1622,24 @@ export default function GermanyStudyGuide() {
         </div>
       </section>
 
+      {/* Genel Yorumlar Section */}
+      <section className="py-16 md:py-24 bg-gradient-to-br from-blue-50 to-indigo-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <div id="genel-yorumlar" className="bg-white rounded-2xl p-8 border-2 border-blue-200 shadow-lg">
+              <div className="flex items-center gap-3 mb-6 justify-center">
+                <MessageSquare className="w-8 h-8 text-blue-600" />
+                <h3 className="text-2xl font-bold text-blue-900">Genel Sorular & Yorumlar</h3>
+              </div>
+              <p className="text-sm text-blue-800 mb-6 text-center">
+                Süreçle ilgili genel sorularınızı, deneyimlerinizi ve önerilerinizi paylaşabilirsiniz.
+              </p>
+              <Comments term="Genel Sorular ve Yorumlar" />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Final Message */}
       <section className="bg-gradient-to-br from-primary/10 via-primary/5 to-white py-20 md:py-28">
         <div className="container mx-auto px-4">
@@ -1570,15 +1674,35 @@ export default function GermanyStudyGuide() {
         </div>
       </section>
 
+      {/* Floating Comment Button */}
+      <button
+        onClick={() => {
+          const commentsSection = document.getElementById('genel-yorumlar');
+          if (commentsSection) {
+            commentsSection.scrollIntoView({ behavior: 'smooth' });
+          }
+        }}
+        className="fixed bottom-6 right-6 z-50 bg-blue-600 hover:bg-blue-700 text-white rounded-full p-4 shadow-lg transition-all hover:scale-110 flex items-center gap-2 group"
+        aria-label="Yorumlar"
+      >
+        <MessageSquare className="w-6 h-6" />
+        <span className="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-300 whitespace-nowrap">
+          Tartışma
+        </span>
+      </button>
+
       {/* Footer */}
       <footer className="border-t py-12 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center space-y-4">
-            <p className="text-sm text-muted-foreground leading-relaxed">
-              Bu site bağımsız bir bilgi kaynağıdır ve profesyonel danışmanlık hizmeti sunmamaktadır. Tüm bilgiler genel
-              amaçlı bilgilendirme içindir.
-            </p>
-            <p className="text-sm text-muted-foreground">Resmi kurumlarla herhangi bir bağlantımız bulunmamaktadır.</p>
+          <div className="max-w-4xl mx-auto space-y-8">
+            {/* Footer Bilgisi */}
+            <div className="text-center space-y-4">
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                Bu site bağımsız bir bilgi kaynağıdır ve profesyonel danışmanlık hizmeti sunmamaktadır. Tüm bilgiler genel
+                amaçlı bilgilendirme içindir.
+              </p>
+              <p className="text-sm text-muted-foreground">Resmi kurumlarla herhangi bir bağlantımız bulunmamaktadır.</p>
+            </div>
           </div>
         </div>
       </footer>
