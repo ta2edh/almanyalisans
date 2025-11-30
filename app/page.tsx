@@ -1143,7 +1143,7 @@ export default function GermanyStudyGuide() {
                   
                   <div className="bg-blue-50 border border-blue-200 rounded p-3 mt-3">
                     <p className="text-xs text-blue-800">
-                      <strong>💡 Not:</strong> Vize için minimum A1 yeterli olsa da, eğer daha yüksek seviye bir sertifikanız varsa (B1, B2, C1, C2), bunları kullanmanız başvurunuzu güçlendirir.
+                      <strong>💡 Not:</strong> Vize için minimum A1 yeterli olsa da, eğer daha yüksek seviye bir sertifikanız varsa (A2, B1, B2, C1, C2), bunları kullanmanız başvurunuzu güçlendirir.
                     </p>
                   </div>
                   
