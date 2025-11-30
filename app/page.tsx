@@ -1223,14 +1223,14 @@ export default function GermanyStudyGuide() {
                     <div className="mt-4 bg-green-50 border border-green-300 rounded p-3">
                       <p className="text-xs font-semibold text-green-900 mb-2">💰 2025 Yılı Minimum Net Gelir Gereksinimleri</p>
                       <p className="text-[10px] text-gray-600 mb-3">
-                        Sponsorun bakmakla yükümlü olduğu kişi sayısına göre minimum hacze karşı korunan net aylık gelir (Pfändungsfreigrenzen):
+                        Sponsorun bakmakla yükümlü olduğu kişi sayısına göre minimum net aylık gelir (Nettolohn monatlich):
                       </p>
                       <div className="overflow-x-auto">
                         <table className="w-full text-[10px] border border-green-200">
                           <thead className="bg-green-100">
                             <tr>
                               <th className="border border-green-200 px-2 py-1 text-left">Bakmakla Yükümlü Kişi Sayısı</th>
-                              <th className="border border-green-200 px-2 py-1 text-left">Hacze Karşı Korunan Net Aylık Gelir (€)</th>
+                              <th className="border border-green-200 px-2 py-1 text-left">Net Aylık Gelir (€)</th>
                             </tr>
                           </thead>
                           <tbody>
@@ -1357,7 +1357,7 @@ export default function GermanyStudyGuide() {
                       <span className="text-purple-600 font-bold text-lg">✓</span>
                       <div>
                         <strong className="text-purple-900">Sağlık Sigortası Belgesi</strong>
-                        <p className="text-xs text-gray-600 mt-1">SGK aracılığıyla alınabilir (detaylar aşağıda)</p>
+                        <p className="text-xs text-gray-600 mt-1">SGK aracılığıyla ücretsiz alınabilir (detaylar aşağıda)</p>
                       </div>
                     </li>
                   </ul>
