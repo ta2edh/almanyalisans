@@ -161,7 +161,7 @@ export default function GermanyStudyGuide() {
                     </div>
 
                     <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 space-y-3">
-                      <h4 className="font-semibold text-amber-900">📦 Adım 1.2: PTT Kargo ile Gönder</h4>
+                      <h4 className="font-semibold text-amber-900">📦 Adım 1.2: PTT ile Gönder</h4>
                       <div className="text-sm text-amber-800 space-y-2">
                         <p className="font-medium">Gönderim Adresi:</p>
                         <div className="bg-white rounded p-3 border border-amber-200">
@@ -172,7 +172,7 @@ export default function GermanyStudyGuide() {
                           </p>
                         </div>
                         <p className="text-xs mt-2">
-                          <strong>Not:</strong> Dilekçeyi PTT Kargo ile güvenli bir şekilde gönderin.
+                          <strong>Not:</strong> Kamu kurumları sadece PTT tarafından gönderilen belgeleri kabul edebiliyor. İsterseniz PTT-Acil Posta Servisi ile de gönderebilirsiniz. Dilekçeniz hızlı bir şekilde ulaşır. Devlet üniversitesinde okuyorsanız üniversitenizin içerisinde bir PTT şubesi mevcut ise üniversitenizin anlaşması olabilir, mektubunuz ücret farkı olmadan APS ile gönderilebilir. Araştırın.
                         </p>
                       </div>
                     </div>
@@ -240,7 +240,7 @@ export default function GermanyStudyGuide() {
                       <h4 className="font-semibold text-indigo-900">📋 Adım 2.3: Apostil Yaptırma (İsteğe Bağlı)</h4>
                       <div className="text-sm text-indigo-800 space-y-2">
                         <p>
-                          Bazı ilçelerde İlçe MEM, Kaymakamlık binasında bulunuyor. Eğer öyle ise <strong>Kaymakamlık Yazı İşleri Bölümü</strong>'nden diplomanıza apostil de yaptırabilirsiniz. 5. Bölümde diplomanızıda apostil yaptırmanız gerektiğini belirttik.
+                          Bazı ilçelerde İlçe MEM, Kaymakamlık binasında bulunuyor. Eğer öyle ise <strong>Kaymakamlık Yazı İşleri Bölümü</strong>'nden diplomanıza apostil de yaptırabilirsiniz. Beşinci bölümde diplomanızıda apostil yaptırmanız gerektiğini belirttik.
                         </p>
                         <div className="bg-white rounded p-3 border border-indigo-200">
                           <p className="text-xs text-gray-700">
@@ -311,7 +311,7 @@ export default function GermanyStudyGuide() {
                           </p>
                         </div>
                         <p className="text-xs text-green-700 mt-2">
-                          💡 <strong>Not:</strong> Noter onayı olmadan çeviriler geçersizdir!
+                          💡 <strong>Not:</strong> Noter onayı olmayan çevirilere apostil yaptıramazsınız. Apostil yaptırmadığınız belgeler kabul edilmeyebilir.
                         </p>
                       </div>
                     </div>
