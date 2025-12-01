@@ -1499,7 +1499,7 @@ export default function GermanyStudyGuide() {
                       <li>Hesap oluşturun ve gidiş amacınız ile alakalı soruları cevaplayarak vize başvurunuzun taslağını oluşturun.</li>
                       <li>Sistem size belgelerinize göre uygun vize türünü atayacak.</li>
                       <li>Bilgieri doldurarak ve gerekli belgeleri yükleyerek vize başvurunuzu tamamlayın.</li>
-                      <li>Randevu atanacak (iData randevusu)</li>
+                      <li>Randevu atanacak (iData randevusu) - iData işlem ücreti 2025 itibari ile <strong>75 EUR</strong>'dur.</li>
                       <li>Belgeleriniz ve pasaportunuzla <strong>iData</strong>'ya gidin ve vize mülakatınızı gerçekleştirin.</li>
                       <li>Başvurunuz konsolosluk tarafından <strong>yaklaşık 1 ay içinde</strong> sonuçlandırılacak.</li>
                     </ol>
