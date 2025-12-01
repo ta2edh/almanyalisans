@@ -1495,11 +1495,13 @@ export default function GermanyStudyGuide() {
                     </p>
                     <ol className="text-xs text-indigo-800 space-y-1 mt-2 ml-4 list-decimal">
                       <li>digital.diplo.de adresine gidin</li>
-                      <li>Hesap oluşturun</li>
-                      <li>Vize türü olarak "Öğrenci Vizesi (D-Vize)" seçin</li>
-                      <li>Tüm belgeleri yükleyin</li>
-                      <li>Randevu alın</li>
-                      <li>Konsolosluğa gidin ve başvurunuzu tamamlayın</li>
+                      <li><strong>Visa</strong> ➜ <strong>"Study purposes and seeking a university place"</strong> seçin</li>
+                      <li>Hesap oluşturun ve gidiş amacınız ile alakalı soruları cevaplayarak vize başvurunuzun taslağını oluşturun.</li>
+                      <li>Sistem size belgelerinize göre uygun vize türünü atayacak.</li>
+                      <li>Bilgieri doldurarak ve gerekli belgeleri yükleyerek vize başvurunuzu tamamlayın.</li>
+                      <li>Randevu atanacak (iData randevusu)</li>
+                      <li>Belgeleriniz ve pasaportunuzla <strong>iData</strong>'ya gidin ve vize mülakatınızı gerçekleştirin.</li>
+                      <li>Başvurunuz konsolosluk tarafından <strong>yaklaşık 1 ay içinde</strong> sonuçlandırılacak.</li>
                     </ol>
                   </div>
                 </div>
