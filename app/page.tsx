@@ -1495,7 +1495,7 @@ export default function GermanyStudyGuide() {
                     </p>
                     <ol className="text-xs text-indigo-800 space-y-1 mt-2 ml-4 list-decimal">
                       <li>digital.diplo.de adresine gidin</li>
-                      <li><strong>Visa</strong> ➜ <strong>"Study purposes and seeking a university place"</strong> seçin</li>
+                      <li>"Visa" ➜ "Study purposes and seeking a university place" kutucuklarınızı takip edin.</li>
                       <li>Hesap oluşturun ve gidiş amacınız ile alakalı soruları cevaplayarak vize başvurunuzun taslağını oluşturun.</li>
                       <li>Sistem size belgelerinize göre uygun vize türünü atayacak.</li>
                       <li>Bilgieri doldurarak ve gerekli belgeleri yükleyerek vize başvurunuzu tamamlayın.</li>
