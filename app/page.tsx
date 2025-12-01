@@ -723,14 +723,14 @@ export default function GermanyStudyGuide() {
                   <div className="bg-green-50 border border-green-200 rounded-lg p-4">
                     <h4 className="font-bold text-green-900 mb-2">NC-frei</h4>
                     <p className="text-sm text-green-800">
-                      <strong>Not sınırlaması yok!</strong> YKS'de aldığınız puanın önemi yoktur. Sadece lise diploması yeterlidir.
+                      <strong>Not sınırlaması yok!</strong> YKS'de aldığınız puanın önemi yoktur. Sadece lise diploması ve ÖSYM Yerleştirme belgesi yeterlidir. Türkiye'de kazandığınız bölümle alakalı bölümlere başvurabilirsiniz.
                     </p>
                   </div>
                   
                   <div className="bg-orange-50 border border-orange-200 rounded-lg p-4">
                     <h4 className="font-bold text-orange-900 mb-2">Örtlich NC</h4>
                     <p className="text-sm text-orange-800">
-                      <strong>Kontenjan sınırlaması var.</strong> Bölüme NC (not ortalaması) sınırlaması uygulanıyor. YKS puanınız önemli!
+                      <strong>Kontenjan sınırlaması var.</strong> Bölüme NC (not ortalaması) sınırlaması uygulanıyor. YKS yerleştirme puanınız önemli!
                     </p>
                   </div>
                   
