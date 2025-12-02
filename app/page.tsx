@@ -1514,55 +1514,6 @@ export default function GermanyStudyGuide() {
         </div>
       </section>
 
-      {/* Common Mistakes */}
-      <section className="bg-amber-50 py-16 md:py-20">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <div className="flex items-center justify-center gap-3 mb-8">
-              <AlertTriangle className="w-10 h-10 text-amber-600" />
-              <h2 className="text-3xl md:text-4xl font-bold text-center">Sık Yapılan Hatalar</h2>
-            </div>
-            <div className="grid gap-4 md:grid-cols-2">
-              <Card className="border-amber-200 bg-white">
-                <CardContent className="pt-6 pb-6">
-                  <h3 className="font-semibold text-lg mb-2">❌ Eksik Çeviri</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
-                    Tüm belgelerin noter onaylı çevirisi olmalı. Eksik belge başvurunuzu reddeder.
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card className="border-amber-200 bg-white">
-                <CardContent className="pt-6 pb-6">
-                  <h3 className="font-semibold text-lg mb-2">❌ Yanlış Formatta PDF</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
-                    Belgelerin okunabilir, net ve doğru formatta olduğundan emin olun.
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card className="border-amber-200 bg-white">
-                <CardContent className="pt-6 pb-6">
-                  <h3 className="font-semibold text-lg mb-2">❌ Yanlış Üniversite Şartları</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
-                    Her üniversitenin farklı şartları var. Önceden araştırın ve doğru bilgiye göre hazırlanın.
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card className="border-amber-200 bg-white">
-                <CardContent className="pt-6 pb-6">
-                  <h3 className="font-semibold text-lg mb-2">❌ Danışmanlık Firmalarına Gereksiz Ödeme</h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
-                    Tüm bu işlemleri kendiniz yapabilirsiniz. Binlerce lira harcamayın.
-                  </p>
-                </CardContent>
-              </Card>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Checklist */}
       <section className="py-16 md:py-20">
         <div className="container mx-auto px-4">
