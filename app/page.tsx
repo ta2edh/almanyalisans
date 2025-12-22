@@ -1204,6 +1204,13 @@ export default function GermanyStudyGuide() {
                 <div className="bg-green-50 border border-green-300 rounded-lg p-5 space-y-4">
                   <h4 className="font-bold text-green-900 text-lg">📋 Seçenek 2: Verpflichtungserklärung (VE) - Resmi Taahhütname</h4>
                   
+                  <div className="bg-amber-50 border border-amber-400 rounded-lg p-4 mb-3">
+                    <p className="text-xs text-amber-900 font-bold mb-1">⚠️ ÖNEMLİ ZAMAN PLANLAMA UYARISI</p>
+                    <p className="text-xs text-amber-800">
+                      Verpflichtungserklärung belgesinin çıkma süresi <strong>minimum 2 ay</strong> sürebilir. Bu nedenle, bu seçeneği kullanmayı planlıyorsanız, <strong>vize başvurunuzdan en az 2-3 ay önce</strong> sponsorunuzun bu belgeyi başlatması gerekir. Zaman planlamanızı buna göre yapın!
+                    </p>
+                  </div>
+                  
                   <div className="bg-white border border-green-200 rounded p-4 space-y-3">
                     <p className="text-sm text-green-800">
                       Bir Alman vatandaşı veya Almanya'da oturum izni olan biri, yabancılar dairesinden <strong>Verpflichtungserklärung</strong> çıkarır.
