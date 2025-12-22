@@ -1167,7 +1167,7 @@ export default function GermanyStudyGuide() {
                   <h4 className="font-bold text-blue-900 text-lg">📊 Seçenek 1: Kilitli Hesap (Sperrkonto)</h4>
                   <div className="space-y-3">
                     <p className="text-sm text-blue-800">
-                      Almanya devletinin onayladığı bankalara <strong>11.904 EUR</strong> yatırmanız gerekiyor.
+                      Almanya devletinin onayladığı bankalara <strong>11.904 EUR</strong> yatırmanız gerekiyor. <strong>Bu miktar bir yıllık (12 ay) içindir.</strong>
                     </p>
                     
                     <div className="bg-white border border-blue-200 rounded p-4">
@@ -1176,6 +1176,21 @@ export default function GermanyStudyGuide() {
                         <li>• Banka parayı 12 aya böler</li>
                         <li>• Her ay size belirli bir miktar geri öder</li>
                         <li>• Bu, aylık yaşam masraflarınızı karşılar</li>
+                      </ul>
+                    </div>
+                    
+                    <div className="bg-amber-50 border border-amber-300 rounded p-4 mt-3">
+                      <p className="text-xs text-amber-900 font-semibold mb-2">⚠️ Önemli Bilgiler:</p>
+                      <ul className="text-xs text-amber-800 space-y-2">
+                        <li>
+                          <strong>• Esnek Süre Seçeneği:</strong> 11.904 EUR yerine daha az bir miktar (örneğin 6 aylık = ~5.952 EUR) yatırabilirsiniz. Bu durumda vizeniz yatırdığınız süre kadar geçerli olur. <span className="font-semibold">Önerimiz minimum 6 aylık Sperrkonto.</span>
+                        </li>
+                        <li>
+                          <strong>• Uzatma Gereksinimi:</strong> 6 aylık vize aldıysanız, 6. aya girerken yabancılar dairesine tekrar bir Sperrkonto, garantör (VE) veya part-time iş geliri (haftada 20 saat) göstermeniz gerekebilir.
+                        </li>
+                        <li>
+                          <strong>• Sonraki Yıllar:</strong> İlk yıldan sonra, garantör veya part-time çalışma (haftada max 20 saat) ile geçiminizi sağlayamıyorsanız, yabancılar dairesi tekrar 12 aylık Sperrkonto isteyebilir.
+                        </li>
                       </ul>
                     </div>
                     
